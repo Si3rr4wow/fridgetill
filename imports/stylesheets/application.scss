@@ -3,14 +3,16 @@
 
 // Vendor
 @import 'vendor/bootstrap/bootstrap';
-//
+
+//ext
 @import 'ext/bootstrap/root';
 
 // Components
 
-//for testing giftcard preview
+//fonts
+@import 'fonts';
+
 #react-target {
-  // height: 100vh;
   display: flex;
   flex-direction: column;
 

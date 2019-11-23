@@ -1,10 +1,10 @@
 import convertCustomRouteConfig from './utils/convert-custom-route-config';
 
 import Main from './main'
-import About from './about'
+import Contents from './contents'
 
 const routes = [
-  About,
+  Contents,
   Main
 ];
 
