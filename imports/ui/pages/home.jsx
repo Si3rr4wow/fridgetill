@@ -12,13 +12,13 @@ const Home = () => (
   <Container>
     <h1 className="text-center p-4">Fridge Till</h1>
     <Row>
-      <Col>
+      <Col lg="6" className="mb-5">
         <Link style={{ textDecoration: 'none' }} to={Paths.build.contents()}>
           <FridgeButton/>
         </Link>
       </Col>
-      <Col>
-        <Link style={{ textDecoration: 'none' }} to={Paths.build.contents()}>
+      <Col lg="6" className="mb-5">
+        <Link style={{ textDecoration: 'none' }} to={Paths.build.manage()}>
           <StockButton/>
         </Link>
       </Col>
