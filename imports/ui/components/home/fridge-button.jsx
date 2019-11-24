@@ -63,9 +63,6 @@ const HoverBox = styled.div`
     box-shadow: 0px 0px 15px 3px var(--cyan);
     border: 1px solid var(--white);
   }
-  &:hover {
-    box-shadow: 0px 0px 20px 7px var(--cyan);
-  }
   transition: box-shadow 0.25s;
 `
 

@@ -9,7 +9,7 @@ const ListOutline = styled.div`
   height: 80%;
   width: 80%;
   border: 1px solid var(--cyan);
-  transition: border 0.25s;
+  transition: border 0.25s, box-shadow 0.25s;
 `
 
 const BulletPoint = styled.div`
@@ -48,9 +48,6 @@ const HoverBox = styled.div`
   &:hover ${ListOutline} {
     box-shadow: 0px 0px 15px 3px var(--cyan);
     border: 1px solid var(--white);
-  }
-  &:hover {
-    box-shadow: 0px 0px 20px 7px var(--cyan);
   }
   transition: box-shadow 0.25s;
 `
