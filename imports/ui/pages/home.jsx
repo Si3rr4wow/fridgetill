@@ -2,6 +2,7 @@ import React from 'react'
 
 import { Container, Col, Row } from 'reactstrap'
 import FridgeButton from '/imports/ui/components/home/fridge-button'
+import StockButton from '/imports/ui/components/home/stock-button'
 
 import { Link } from 'react-router-dom'
 
@@ -12,12 +13,14 @@ const Home = () => (
     <h1 className="text-center p-4">Fridge Till</h1>
     <Row>
       <Col>
-        <Link to={Paths.build.contents()}>
+        <Link style={{ textDecoration: 'none' }} to={Paths.build.contents()}>
           <FridgeButton/>
         </Link>
       </Col>
       <Col>
-        <h3 className="text-center align-self-center">Coming Soon</h3>
+        <Link style={{ textDecoration: 'none' }} to={Paths.build.contents()}>
+          <StockButton/>
+        </Link>
       </Col>
     </Row>
   </Container>

@@ -22,8 +22,10 @@ const FridgeOutline = styled.div`
 
 const Freezer = styled.div`
   border: 1px solid var(--cyan);
-  height: calc(30% + 1px);
-  width: calc(100% + 1px);
+  height: calc(30% + 2px);
+  width: calc(100% + 2px);
+  margin-left: -1px;
+  margin-top: -1px;
   margin-bottom: 5px;
   border-radius: 20px 20px 0 0;
   transition: border 0.25s;
@@ -32,7 +34,8 @@ const Freezer = styled.div`
 const Fridge = styled.div`
   border: 1px solid var(--cyan);
   height: calc(70% - 4px);
-  width: calc(100% + 1px);
+  width: calc(100% + 2px);
+  margin-left: -1px;
   border-radius: 0 0 20px 20px;
   transition: border 0.25s;
 `;
